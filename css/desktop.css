@@ -1,0 +1,73 @@
+/*pantalla principal*/
+.container__welcome-title{
+  background: #e8e5e5;
+}
+.fimanager {
+  font-size: 3rem;
+}
+.navigation__profile-link a{
+  font-size: 2.2rem;
+}
+.head__navigation .navigation__logo a{
+  width: 250px;
+}
+/*Blogs*/
+.principal__container{
+  flex-direction: row;
+  padding:20px 100px;
+}
+.principal__information, .principal__graph{
+  width: 50%;
+  margin: 0 20px;
+}
+.graph__title{
+  text-align: start;
+}
+main .blog__user-actions{
+  flex-direction: row;
+}
+/*Profile*/
+main .my-info{
+  display: grid;
+  grid-template-columns: 3fr 1fr 3fr 1fr 3fr;
+  height: 50vh;
+}
+.first{
+  grid-column:2 / span 1;
+}
+.second{
+  grid-column: 4 / span 1;
+}
+.my-info .my-info__container{
+  grid-row: 1 / span 3;
+  margin:0 auto;
+}
+.my-info .my-info__detail{
+  display: none;
+  grid-row: 1 / span 3;
+  font-size: var(--huge);
+}
+.my-info .my-info__photo{
+  grid-row: 1/span 2;
+  grid-column: 3/ span 1;
+  margin: 0 20px;
+  height: 40vh;
+  width: 20vw;
+  margin-top: 20px;
+}
+.my-info .my-info__first-question,.my-info .my-info__second-question{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+  height: 20vh;
+}
+.my-info__container:hover{
+  grid-row: 1 / span 3;
+}
+.first:hover {
+  grid-column: 1/ span 2;
+}
+.second:hover{
+  grid-column: 4/ span 1;
+}

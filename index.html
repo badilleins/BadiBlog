@@ -5,20 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/font/flaticon.css">
+    <link rel="stylesheet" href="css/desktop.css" media="(min-width:1500px)">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&family=Open+Sans:wght@300;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/huge.css" media="(min-width:2000px)">
     <title>Badilleins</title>
   </head>
   <body>
     <header class="head">
       <section class="head__social-medias-sec">
         <div class="social-medias__container">
-          <a href="/"><span class="fimanager flaticon-001-facebook"></span></a>
-          <a href="/"><span class="fimanager flaticon-002-twitter"></span></a>
-          <a href="/"><span class="fimanager flaticon-011-instagram"></span></a>
-          <a href="/"><span class="fimanager flaticon-010-linkedin"></span></a>
-          <a href="/"><span class="fimanager flaticon-008-youtube"></span></a>
+          <a href="https://www.facebook.com/Badilleins " target="_blank"><span class="icons facebook"></span></a>
+          <a href="https://twitter.com/badilleins " target="_blank"><span class="twitter icons"></span></a>
+          <a href="https://www.instagram.com/badilleins/" target="_blank"><span class="icons instagram"></span></a>
+          <a href="https://www.linkedin.com/in/stalinbadillo/" target="_blank"><span class="icons linkedin"></span></a>
+          <a href="https://github.com/badilleins " target= "_blank"><span class="github icons"></span></a>
         </div>
       </section>
       <nav class="head__navigation">
@@ -26,24 +27,16 @@
         <a href="index.html"><img src="https://i.ibb.co/rZKW6Lm/logo-Blog-1.png" alt="Logo de mi blog"></a>
       </section>
       <section class="navigation__profile-link">
-        <a href="perfil.html">Sobre mí</a>
+        <a href="perfil.html" class="profile-link__about-me">Sobre mí</a>
       </section>
     </nav>
     </header>
-    <main class="principal">
-      <section class="principal__sec">
-        <picture class="principal__background-image-container principal__secs">
-          <img src="https://i.ibb.co/Pmg0RKT/pexels-roberto-nickson-2661176-1.jpg" alt="Imagen de fondo">
-        </picture>
-        <section class="principal__welcome-sec principal__secs">
-          <div class="welcome-sec__container">
-            <h1>Mira el mundo a través del mio...</h1>
-          </div>
-        </section>
-        <section class="principal__button-container principal__secs">
-          <button class="button-container__join">¡Hagámoslo!</button>
-        </section>
+    <main class="principal-home">
+      <section class="principal-home__container">
+          <h1 class="container__welcome-title">Mira el mundo a través del mío...</h1>
+          <a class="container__principal-button" href="blogs.html"><canvas id="canvas" onclick="click()" width="250" height="180"></canvas></a>
       </section>
     </main>
+    <script type="text/javascript" src="javascript/index.js"></script>
   </body>
 </html>

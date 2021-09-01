@@ -1,0 +1,64 @@
+.blog{
+  background: #efefef;
+}
+.blog__big-image{
+  width: 90%;
+  margin:10px auto;
+  min-height: 100px;
+  padding: 50px 0 40px;
+}
+.blog__contain{
+  margin: 0 50px 40px;
+}
+.blog__contain, .blog__contain article{
+  padding:10px;
+}
+.blog__contain h3{
+  text-align: start;
+  width: 100%;
+}
+.blog__contain h1{
+  font-size: 3.5rem;
+  margin-bottom: 30px;
+}
+.paragraph{
+  font-size: var(--normal);
+}
+.blog__user-actions{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  min-height: 250px;
+  background: var(--opaque-color-pink);
+}
+.user-actions__contacts, .user-actions__write{
+  display: flex;
+  margin:10px;
+  justify-content: space-evenly;
+  margin: 30px 0 50px;
+}
+.user-actions__contacts > div, .user-actions__write > div{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 160px;
+  color: #010101;
+}
+.contacts__title a ,.write__title a{
+  font-size: var(--big);
+  font-family: var(--primary-font);
+  border-bottom: 1px solid #111;
+  width: max-content;
+}
+.contacts__description,.write__description{
+  font-size: var(--normal);
+}
+.contacts__description a,.write__description a{
+  font-size: var(--normal);
+  font-weight: var(--fat);
+}
+.user-actions__contacts img, .user-actions__write img{
+  width: 35%;
+  height: 120px;
+}

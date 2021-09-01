@@ -1,0 +1,150 @@
+body{
+  position: initial;
+  background: var(--opaque-color-yellow);
+}
+.blogs__principal{
+  background: var(--opaque-color-pink);
+  margin-bottom: 20px;
+}
+.principal__container{
+  display: flex;
+  flex-direction: column;
+  padding:20px;
+}
+.grid-container{
+  max-width: 980px;
+  margin:auto;
+}
+.principal__graph{
+  display: flex;
+  flex-direction: column;
+}
+.graph__title{
+  margin-bottom: 15px;
+  font-size: var(--small);
+  font-weight: var(--fat);
+  text-align: center;
+}
+.graph__image{
+  display: inline-block;
+  min-width:200px;
+  height: 200px;
+  flex-grow: 2;
+  background-image: url('https://i.ibb.co/QHqKpg2/board-3695073-1280-1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+}
+.principal__information{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.principal__title{
+  font-size: var(--huge);
+  font-weight: var(--fat);
+  font-family: var(--primary-font);
+  margin: 20px 0 0;
+}
+.principal__detail{
+  font-size: var(--small)
+}
+.blog__watch-more{
+  width: max-content;
+  height: max-content;
+  max-width: 200px;
+  padding:15px 10px;
+  border-radius: 8%;
+  border: 2px solid var(--opaque-color-green);
+  border-bottom: none;
+  border-top: none;
+  font-size: 1.4rem;
+  font-family:var(--primary-font);
+  background: rgba(255, 255, 255, 0.2);
+}
+.secondary__title{
+  margin: 0 auto;
+  padding: 10px;
+  font-size: var(--big);
+  font-family: var(--principal-font);
+  font-weight: var(--fat);
+  width: 90%;
+  border-bottom: 1px solid #888;
+  text-align: center;
+}
+.blogs__secondary{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding:20px 50px;
+}
+.secondary__blog{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 30%;
+  margin:20px 0 0 10px;
+  border-radius: 5%;
+  border-right: .2px solid #555;
+  border-left: .2px solid #555;
+  padding: 20px 10px;
+}
+.blog__image{
+  display: inline-block;
+  border-radius: 5%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+.image1{
+  background-image: url("https://i.ibb.co/P16Ys1W/Mejor-calentador-de-agua-2019-1024x505-1024x505.jpg");
+}
+.image2{
+  background-image: url("https://i.ibb.co/yfzNwzn/fairy-tale-1180921-1920-1.png");
+}
+.image3{
+  background-image: url("https://i.ibb.co/yW7yYQ4/caracter-par-resolver-ilustracion-piezas-rompecabezas-53876-32627.jpg");
+}
+.image4{
+  background-image: url("https://i.ibb.co/C6Nr2Kf/portada.jpg");
+}
+.image5{
+  background-image: url("https://i.ibb.co/QcGPdRc/unnamed.jpg");
+}
+.image6{
+  background-image: url("https://i.ibb.co/3M2cC2h/una-taza-de-javascript.png");
+}
+
+
+
+.blog__title{
+  font-size: var(--big);
+  font-family: var(--primary-font);
+  font-weight: var(--fat);
+ margin-bottom: 10px;
+}
+.blog__detail{
+  font-size: var(--small);
+}
+.blogs__watch-more{
+  border-bottom:none;
+  margin-top: 10px;
+}
+footer{
+  border-top: 20px solid var(--opaque-color-green);
+  height: 75px;
+  width: 100%;
+  background: #555;
+  text-align: center;
+  vertical-align: middle;
+  color: #eee;
+}
+footer p{
+  font-size: var(--normal);
+}
+
+/*Status*/
+  .blog__watch-more:hover,   .principal__watch-more:hover{
+    border-top: 2px solid var(--opaque-color-green);
+    border-bottom: 2px solid var(--opaque-color-green);
+  }
