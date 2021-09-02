@@ -36,7 +36,7 @@
     </header>
     <main>
       <section class="my-info">
-        <div class="my-info__photo">
+        <div class="my-info__photo background__images">
         </div>
         <div class="my-info__container first">
         <span class="my-info__first-question">¿Quién soy?</span>
@@ -66,10 +66,10 @@
         <div class="my-projects__web-development">
         <article class="web-development__project">
           <span class="blog__title">Calculadora de tablas</span>
-          <div class="project__image table-image">
+          <div class="project__image table-image background__images">
               <div></div>
               <div></div>
-              <div></div>
+              <div class="image__javascript"></div>
           </div>
           <p>Esta aplicación web responsiva permite calcular la tabla de verdad necesaria en pocos click.</p>
           <p>Se puede elegir cualquier letra del abecedario, junto a un operador lógico para representar a la proposición que se necesite. Luego, se hace click en el botón calcular tabla, ahora la tabla mostrará los resultados y una explicación dependiendo de la operación realizada.</p>
@@ -79,9 +79,10 @@
         </article>
         <article class="web-development__project">
           <span class="blog__title">Album</span>
-          <div class="project__image album-image">
+          <div class="project__image album-image background__images">
               <div></div>
               <div></div>
+              <div class="image__sass"></div>
           </div>
           <p>Hice este sitio web responsivo para practicar los nuevos conocimientos adquiridos. Es como la interfaz de una página web que está destinada a ser una aplicación donde se puedeb guardar videos y ver los videos de otras personas.
           </p>
@@ -98,7 +99,7 @@
         </article>
         <article class="web-development__project">
           <span class="blog__title">Bata Bit</span>
-          <div class="project__image BataBit-image">
+          <div class="project__image BataBit-image background__images">
               <div></div>
               <div></div>
           </div>
@@ -110,7 +111,7 @@
         </article>
         <article class="web-development__project">
           <span class="blog__title">Google clone</span>
-          <div class="project__image google-image">
+          <div class="project__image google-image background__images">
               <div></div>
               <div></div>
           </div>
@@ -125,15 +126,15 @@
         <div class="user-actions__contacts">
           <img src="https://images.vexels.com/media/users/3/155376/isolated/preview/4e371397e62ceccc637314ad5bbe701d-icono-de-contacto-de-correo-de-smartphone.png" alt="Contact-image">
           <div>
-            <span class="contacts__title"><a href="perfil.html">Contacto</a></span>
-            <p class="contacts__description">Si quieres contactarme haz click en contactos.</p>
+            <button class="contacts__title" id="contact" onclick="copyNumber()">Contacto</button>
+            <p class="contacts__description">Al hacer click en contacto se copiará mi número.</p>
           </div>
         </div>
         <div class="user-actions__write">
           <img src="https://image.flaticon.com/icons/png/512/88/88255.png" alt="An open envelope with a letter inside">
           <div>
-            <span class="write__title"><a href="perfil.html">Escribe</a></span>
-            <p class="write__description">Me agradará leer tu opinión y/o recomendaciones.</p>
+            <button class="write__title" id="writeMe" onclick="mandarCorreo()">Escribeme</button>
+            <p class="write__description">Al hacer click en escribeme podrás mandarme un correo.</p>
           </div>
         </div>
       </section>
@@ -141,4 +142,6 @@
     <footer>
       <p>Blogueando desde 2021</p>
     </footer>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript" src="javascript/user-actions.js"></script>
   </body>

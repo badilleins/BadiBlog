@@ -50,15 +50,15 @@
         <div class="user-actions__contacts">
           <img src="https://images.vexels.com/media/users/3/155376/isolated/preview/4e371397e62ceccc637314ad5bbe701d-icono-de-contacto-de-correo-de-smartphone.png" alt="Contact-image">
           <div>
-            <span class="contacts__title"><a href="perfil.html">Contacto</a></span>
-            <p class="contacts__description">Si quieres contactarme haz click en contactos.</p>
+            <button class="contacts__title" id="contact" onclick="copyNumber()">Contacto</button>
+            <p class="contacts__description">Al hacer click en contacto se copiará mi número que es.</p>
           </div>
         </div>
         <div class="user-actions__write">
           <img src="https://image.flaticon.com/icons/png/512/88/88255.png" alt="An open envelope with a letter inside">
           <div>
-            <span class="write__title"><a href="perfil.html">Escribe</a></span>
-            <p class="write__description">Me agradará leer tu opinión y/o recomendaciones.</p>
+            <button class="write__title" id="writeMe" onclick="mandarCorreo()">Escribeme</button>
+            <p class="write__description">Al hacer click en escribeme podrás mandarme un correo.</p>
           </div>
         </div>
       </section>
@@ -66,4 +66,6 @@
     <footer>
       <p>Blogueando desde 2021</p>
     </footer>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript" src="javascript/user-actions.js"></script>
   </body>

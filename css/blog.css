@@ -5,7 +5,7 @@
   width: 90%;
   margin:10px auto;
   min-height: 100px;
-  padding: 50px 0 40px;
+  padding: 80px 0 40px;
 }
 .blog__contain{
   margin: 0 50px 40px;
@@ -25,40 +25,45 @@
   font-size: var(--normal);
 }
 .blog__user-actions{
-  display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   width: 100%;
   min-height: 250px;
   background: var(--opaque-color-pink);
+  margin-top: 70px;
 }
 .user-actions__contacts, .user-actions__write{
-  display: flex;
   margin:10px;
   justify-content: space-evenly;
   margin: 30px 0 50px;
 }
 .user-actions__contacts > div, .user-actions__write > div{
-  display: flex;
   flex-direction: column;
   margin-left: 10px;
   width: 160px;
   color: #010101;
 }
-.contacts__title a ,.write__title a{
+.contacts__title,.write__title{
   font-size: var(--big);
   font-family: var(--primary-font);
-  border-bottom: 1px solid #111;
+  font-weight: var(--chubby);
+  outline:none;
+  border: none;
+  background: transparent;
   width: max-content;
+  cursor: pointer;
 }
 .contacts__description,.write__description{
   font-size: var(--normal);
 }
-.contacts__description a,.write__description a{
-  font-size: var(--normal);
-  font-weight: var(--fat);
-}
 .user-actions__contacts img, .user-actions__write img{
   width: 35%;
+  max-width: 200px;
   height: 120px;
+  margin-top: 20px;
+}
+/*Status*/
+.contacts__title:hover,.write__title:hover{
+    color: #535353;
+    border-bottom: 2px solid #5fbaa7;
 }

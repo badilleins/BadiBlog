@@ -13,7 +13,6 @@ body{
   right: 0;
   font-family: var(--secondary-font);
 }
-
 :root{
     --opaque-color-green:#99bbad;
     --opaque-color-yellow:#ebd8b7;
@@ -31,10 +30,13 @@ body{
     --huge:2.5rem;
 }
 /*Elements*/
-.icons{
-  display: inline-block;
+.background__images{
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+}
+.icons{
+  display: inline-block;
   width: 48px;
   height: 48px;
   color: white;
@@ -63,22 +65,25 @@ a{
 img{
   width: 100%;
   height: 100%;
-  object-fit: center;
 }
 /*Layout*/
 body{
   min-width: 320px;
   width: 100%;
 }
-.head {
+.head,.head__social-medias-sec,.head__navigation, .principal-home,.principal-home__container, #canvas{
   display: grid;
-  grid-auto-rows: 1fr 1fr;
+}
+.social-medias__container, .navigation__profile-link, .principal__container, .principal__graph, .principal__information, .blogs__secondary, .secondary__blog, .blog__user-actions, .user-actions__contacts, .user-actions__write, .user-actions__contacts > div, .user-actions__write > div, .my-info, .my-info__container, .my-projects__title1, .my-projects__web-development, .web-development__project, .project__image {
+  display: flex;
+}
+.head {
+  grid-template-rows: 1fr 1fr;
   height: 140px;
   background: var(--opaque-color-yellow);
   color:#222222;
 }
 .head__social-medias-sec{
-  display: grid;
   height: 50px;
   width: 100%;
   background:var(--opaque-color-green);
@@ -86,30 +91,22 @@ body{
   text-align: center;
 }
 .head__navigation{
-  display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
 }
 .principal-home{
-    display: grid;
     grid-template-columns: 1fr 5fr 1fr ;
     height: calc(100vh - 140px);
     background-image: url("https://i.ibb.co/Pmg0RKT/pexels-roberto-nickson-2661176-1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 .principal-home__container{
-  display: grid;
   grid-column: 2;
   justify-items: center;
   height: inherit;
   margin-top: 5%;
-
 }
 /*Module*/
 .social-medias__container{
-  display: flex;
   justify-items:flex-end;
   justify-content: space-between;
   width: 280px;
@@ -117,10 +114,6 @@ body{
   align-items: center;
   justify-self:end;
   margin: 0 auto;
-}
-.social-medias__container a{
-  color: white;
-  font-size: 40px;
 }
 .navigation__profile-link a{
   border-bottom:1px solid #575565;
@@ -131,7 +124,6 @@ body{
   width: 200px;
 }
 .navigation__profile-link{
-  display: flex;
   justify-content: flex-end;
   margin-right:20px;
   min-width: 80px;
@@ -147,7 +139,6 @@ body{
   margin:0;
 }
 #canvas{
-  display: grid;
   align-self: center;
   align-items: center;
   cursor: pointer;

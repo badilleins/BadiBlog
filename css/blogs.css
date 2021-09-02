@@ -2,12 +2,13 @@ body{
   position: initial;
   background: var(--opaque-color-yellow);
 }
+.blogs{
+  padding-bottom:70px;
+}
 .blogs__principal{
   background: var(--opaque-color-pink);
-  margin-bottom: 20px;
 }
 .principal__container{
-  display: flex;
   flex-direction: column;
   padding:20px;
 }
@@ -16,8 +17,8 @@ body{
   margin:auto;
 }
 .principal__graph{
-  display: flex;
   flex-direction: column;
+  margin-top: 50px;
 }
 .graph__title{
   margin-bottom: 15px;
@@ -31,15 +32,12 @@ body{
   height: 200px;
   flex-grow: 2;
   background-image: url('https://i.ibb.co/QHqKpg2/board-3695073-1280-1.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  object-fit: cover;
 }
 .principal__information{
-  display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  margin-bottom: 50px;
 }
 .principal__title{
   font-size: var(--huge);
@@ -74,13 +72,11 @@ body{
   text-align: center;
 }
 .blogs__secondary{
-  display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding:20px 50px;
 }
 .secondary__blog{
-  display: flex;
   flex-direction: column;
   flex-basis: 30%;
   margin:20px 0 0 10px;
@@ -93,8 +89,6 @@ body{
   display: inline-block;
   border-radius: 5%;
   height: 200px;
-  background-position: center;
-  background-size: cover;
 }
 .image1{
   background-image: url("https://i.ibb.co/P16Ys1W/Mejor-calentador-de-agua-2019-1024x505-1024x505.jpg");
@@ -114,14 +108,11 @@ body{
 .image6{
   background-image: url("https://i.ibb.co/3M2cC2h/una-taza-de-javascript.png");
 }
-
-
-
 .blog__title{
   font-size: var(--big);
   font-family: var(--primary-font);
   font-weight: var(--fat);
- margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .blog__detail{
   font-size: var(--small);
