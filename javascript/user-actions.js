@@ -10,7 +10,7 @@ function copyNumber() {
   // Selecciona el contenido del campo
   aux.select();
   // Copia el texto seleccionado
-  document.execCommand("copy", swal("Mi número ha sido copiado al portapapeles", "Contactame vía whatsapp "));
+  document.execCommand("copy", swal("My number has been copied to the clipboard", "Contact me via WhatsApp"));
   // Elimina el campo de la página
   document.body.removeChild(aux);
 }

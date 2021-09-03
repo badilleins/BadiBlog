@@ -15,7 +15,7 @@ ctx.stroke()
 //text
 ctx.font = 'bold 3rem red Montserrat'
 ctx.fillStyle = '#c1b3d7'
-ctx.fillText('Vamos',75,120)
+ctx.fillText("Let's go",65,120)
 
 
 

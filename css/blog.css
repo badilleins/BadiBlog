@@ -53,7 +53,7 @@
   width: max-content;
   cursor: pointer;
 }
-.contacts__description,.write__description{
+.contacts__description,.write__description, .contacts__description b ,.write__description b{
   font-size: var(--normal);
 }
 .user-actions__contacts img, .user-actions__write img{
