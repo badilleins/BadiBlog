@@ -147,6 +147,9 @@ body{
 a:hover{
   color:var(--opaque-color-red);
 }
+.navigation__profile-link a:hover{
+  border-bottom:1px solid var(--opaque-color-red);
+}
 .icons:hover{
   opacity: 0.8;
   transform: scale(0.9);
