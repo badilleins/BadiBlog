@@ -36,11 +36,24 @@
   margin-top:5px;
 }
 .my-info__photo{
+  justify-content: center;
   background-image: url("https://i.ibb.co/BjMhDfB/dav.jpg");
   border: 2px solid var(--opaque-color-green);
   border-radius: 50%;
   min-width: 200px;
   height: 230px;
+}
+.photo__greeting{
+  display: none;
+  position: absolute;
+  background: var(--opaque-color-green);
+  border-radius: 20px;
+  width:30vh;
+  margin-top:146px;
+  height: max-content;
+  padding:10px;
+  border: transparent;
+  font-size: var(--normal);
 }
 .my-info__container{
   justify-content: center;
@@ -79,6 +92,7 @@
   justify-content: space-evenly;
   align-items: center;
   scroll-snap-align:center;
+  width: 100%;
   padding: 10px;
   margin:0 10px;
   border: 2px solid var(--opaque-color-green);
@@ -150,7 +164,7 @@
     height: 3px;
 }
 .my-projects__web-development::-webkit-scrollbar-thumb{
-  background-color: var(--opaque-color-purple);
+  background-color: var(--opaque-color-orange);
 }
 /*Status*/
 .my-info__container:hover .my-info__detail{
@@ -164,4 +178,7 @@
 }
 .project__image:hover div {
   opacity: 1;
+}
+.my-info__photo:hover .photo__greeting{
+  display: inline-block;
 }

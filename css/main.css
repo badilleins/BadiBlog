@@ -14,10 +14,10 @@ body{
   font-family: var(--secondary-font);
 }
 :root{
-    --opaque-color-green:#99bbad;
-    --opaque-color-yellow:#ebd8b7;
-    --opaque-color-pink:#c6a9a3;
-    --opaque-color-purple:#9a8194;
+  --opaque-color-green:#00A19D;
+  --opaque-color-white:#FFF8E5;
+  --opaque-color-pink:#ffb8b8;
+  --opaque-color-orange:#FFB344;
     --primary-font: 'Open Sans', sans-serif;
     --secondary-font: 'Montserrat', sans-serif;
     --thin-openS:300;
@@ -39,7 +39,7 @@ body{
   display: inline-block;
   width: 48px;
   height: 48px;
-  color: white;
+  filter: invert(1);
 }
 .facebook{
     background-image: url("https://i.ibb.co/8bpTg6n/icons8-facebook-circled-50-1.png");
@@ -74,14 +74,13 @@ body{
 .head,.head__social-medias-sec,.head__navigation, .principal-home,.principal-home__container, #canvas{
   display: grid;
 }
-.social-medias__container, .navigation__profile-link, .principal__container, .principal__graph, .principal__information, .blogs__secondary, .secondary__blog, .blog__user-actions, .user-actions__contacts, .user-actions__write, .user-actions__contacts > div, .user-actions__write > div, .my-info, .my-info__container, .my-projects__title1, .my-projects__web-development, .web-development__project, .project__image {
+.social-medias__container, .navigation__profile-link, .principal__container, .principal__graph, .principal__information, .blogs__secondary, .secondary__blog, .blog__user-actions, .user-actions__contacts, .user-actions__write, .user-actions__contacts > div, .user-actions__write > div, .my-info, .my-info__container, .my-projects__title1, .my-projects__web-development, .web-development__project, .project__image, .my-info__photo {
   display: flex;
 }
 .head {
   grid-template-rows: 1fr 1fr;
   height: 140px;
-  background: var(--opaque-color-yellow);
-  color:#222222;
+  background: var(--opaque-color-white);
 }
 .head__social-medias-sec{
   height: 50px;
@@ -139,8 +138,6 @@ body{
   margin:0;
 }
 #canvas{
-  align-self: center;
-  align-items: center;
   cursor: pointer;
 }
 .container__principal-button{

@@ -54,6 +54,10 @@ main .my-info{
   width: 20vw;
   margin-top: 20px;
 }
+.my-info .photo__greeting{
+  grid-column: 3/1;
+  grid-row: 1/1;
+}
 .my-info .my-info__first-question,.my-info .my-info__second-question{
   display: flex;
   align-items: center;
