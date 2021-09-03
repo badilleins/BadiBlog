@@ -16,8 +16,8 @@ body{
 :root{
   --opaque-color-green:#00A19D;
   --opaque-color-white:#FFF8E5;
-  --opaque-color-pink:#ffb8b8;
-  --opaque-color-orange:#FFB344;
+  --opaque-color-orange:#FFB344 ;
+  --opaque-color-red:#E05D5D;
     --primary-font: 'Open Sans', sans-serif;
     --secondary-font: 'Montserrat', sans-serif;
     --thin-openS:300;
@@ -145,7 +145,7 @@ body{
 }
 /*Estados*/
 a:hover{
-  color:#444444;
+  color:var(--opaque-color-red);
 }
 .icons:hover{
   opacity: 0.8;

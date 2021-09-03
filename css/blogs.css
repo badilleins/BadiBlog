@@ -6,7 +6,7 @@ body{
   padding-bottom:70px;
 }
 .blogs__principal{
-  background: var(--opaque-color-pink);
+  background: var(--opaque-color-orange);
 }
 .principal__container{
   flex-direction: column;
@@ -59,7 +59,7 @@ body{
   border-top: none;
   font-size: 1.4rem;
   font-family:var(--primary-font);
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.4);
 }
 .secondary__title{
   margin: 0 auto;

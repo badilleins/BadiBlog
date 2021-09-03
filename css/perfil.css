@@ -164,7 +164,7 @@
     height: 3px;
 }
 .my-projects__web-development::-webkit-scrollbar-thumb{
-  background-color: var(--opaque-color-orange);
+  background-color: var(--opaque-color-red);
 }
 /*Status*/
 .my-info__container:hover .my-info__detail{

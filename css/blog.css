@@ -29,7 +29,7 @@
   justify-content: space-evenly;
   width: 100%;
   min-height: 250px;
-  background: var(--opaque-color-pink);
+  background: var(--opaque-color-orange);
   margin-top: 70px;
 }
 .user-actions__contacts, .user-actions__write{
