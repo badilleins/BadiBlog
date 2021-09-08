@@ -16,10 +16,3 @@ ctx.stroke()
 ctx.font = 'bold 3rem red Montserrat'
 ctx.fillStyle = '#c1b3d7'
 ctx.fillText("Let's go",67,120)
-
-
-
-
-// click(){
-// ctx.fillStyle = 'rgba(255,255,255,0.1)'
-//  })
