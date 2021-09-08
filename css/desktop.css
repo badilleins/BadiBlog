@@ -30,7 +30,7 @@ main .blog__user-actions{
 main .my-info{
   display: grid;
   grid-template-columns: 3fr 1fr 3fr 1fr 3fr;
-  height: 60vh;
+  height: 100vh;
 }
 .first{
   grid-column:2 / span 1;
