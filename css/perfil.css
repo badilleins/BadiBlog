@@ -154,7 +154,7 @@
     margin: 10px 0;
 }
 .web-development__project a{
-  margin-top: 25px;
+  margin: 25px;
 }
 .my-projects__web-development::-webkit-scrollbar{
     background: var(--opaque-color-green);

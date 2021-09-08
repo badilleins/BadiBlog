@@ -18,16 +18,16 @@ body{
   --opaque-color-white:#FFF8E5;
   --opaque-color-orange:#FFB344 ;
   --opaque-color-red:#E05D5D;
-    --primary-font: 'Open Sans', sans-serif;
-    --secondary-font: 'Montserrat', sans-serif;
-    --thin-openS:300;
-    --thin-Monse:400;
-    --chubby:500;
-    --fat:700;
-    --small:1.6rem;
-    --normal:1.8rem;
-    --big:2rem;
-    --huge:2.5rem;
+  --primary-font: 'Open Sans', sans-serif;
+  --secondary-font: 'Montserrat', sans-serif;
+  --thin-openS:300;
+  --thin-Monse:400;
+  --chubby:500;
+  --fat:700;
+  --small:1.6rem;
+  --normal:1.8rem;
+  --big:2rem;
+  --huge:2.5rem;
 }
 /*Elements*/
 .background__images{
@@ -121,6 +121,8 @@ body{
 .head__navigation .navigation__logo a{
   display: inline-block;
   width: 200px;
+  border:none;
+  outline: none;
 }
 .navigation__profile-link{
   justify-content: flex-end;
