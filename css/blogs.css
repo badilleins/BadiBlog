@@ -71,6 +71,16 @@ body{
   border-bottom: 1px solid #888;
   text-align: center;
 }
+
+.tertiary__title{
+  margin: 0 auto;
+  padding: 10px;
+  font-size: var(--normal);
+  font-family: var(--principal-font);
+  font-weight: var(--thin-Monse);
+  width: 90%;
+  text-align: start;
+}
 .blogs__secondary{
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -129,6 +139,9 @@ footer{
   text-align: center;
   vertical-align: middle;
   color: #eee;
+}
+div ul li, ol li{
+  font-size: var(--normal);
 }
 footer p{
   font-size: var(--normal);
