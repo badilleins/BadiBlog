@@ -23,6 +23,7 @@
 .blogs__title{
   margin:50px auto;
 }
+
 main .blog__user-actions{
   flex-direction: row;
 }

@@ -29,9 +29,10 @@ body{
 .graph__image{
   display: inline-block;
   min-width:200px;
-  height: 200px;
+  height: 280px;
   flex-grow: 2;
-  background-image: url('https://i.ibb.co/QHqKpg2/board-3695073-1280-1.jpg');
+  background-image: url('https://i.ibb.co/W5DHyYJ/que-es-inteligencia-artificial-el-futuro-esta-aqui-badiblog-riesgos-beneficios-tipos.png');
+  background-size: contain;
 }
 .principal__information{
   flex-direction: column;
@@ -74,7 +75,7 @@ body{
 
 .tertiary__title{
   margin: 0 auto;
-  padding: 10px;
+  padding: 10px 0;
   font-size: var(--normal);
   font-family: var(--principal-font);
   font-weight: var(--thin-Monse);
@@ -142,13 +143,24 @@ footer{
 }
 div ul li, ol li{
   font-size: var(--normal);
+  margin: 10px 0;
 }
-footer p{
+footer p, b,em{
   font-size: var(--normal);
 }
-
+footer b{
+  font-size: var(--small);
+}
+em{
+  color: darkgreen;
+} 
 /*Status*/
   .blog__watch-more:hover,   .principal__watch-more:hover{
     border-top: 2px solid var(--opaque-color-green);
     border-bottom: 2px solid var(--opaque-color-green);
+  }
+  a:hover{
+    text-decoration: none;
+    color: inherit;
+    cursor:pointer;
   }
